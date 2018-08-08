@@ -4,7 +4,9 @@ just trying out electron
 HOW TO RUN THE APP
 
 1. get node.js + npm commands first 
-(follow steps here: [mac] http://blog.teamtreehouse.com/install-node-js-npm-mac)
+follow steps here: 
+[mac] http://blog.teamtreehouse.com/install-node-js-npm-mac)
+[windows] http://blog.teamtreehouse.com/install-node-js-npm-windows
 
 2. in your terminal, head to the directory you have the repo in
 
