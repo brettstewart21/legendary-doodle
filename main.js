@@ -5,7 +5,7 @@ const path = require('path')
 const {app, BrowserWindow, Menu, ipcMain} = electron;
 
 // set env
-process.env.NODE_ENV = 'production'
+// process.env.NODE_ENV = 'production'
 
 let mainWindow;
 let addWindow;
@@ -13,7 +13,10 @@ let addWindow;
 // lsiten for app to be ready
 app.on('ready', function(){
     // create new window
-    mainWindow = new BrowserWindow({});
+    mainWindow = new BrowserWindow({
+        width: 1440,
+        height: 900
+    });
     // load html into window
     mainWindow.loadURL(url.format({
         pathname: path.join(__dirname, 'mainWindow.html'),
