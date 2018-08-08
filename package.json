@@ -1,0 +1,14 @@
+{
+  "name": "electrontest",
+  "version": "2.18.0",
+  "description": "electrontest",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Brett Stewart",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^2.0.6"
+  }
+}
