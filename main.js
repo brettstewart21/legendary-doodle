@@ -38,8 +38,8 @@ app.on('ready', function(){
 function createAddWindow(){
     // create new window
     addWindow = new BrowserWindow({
-        width: 200,
-        height: 300,
+        width: 400,
+        height: 200,
         title: 'Add Shopping List Item'
     });
     // load html into window
