@@ -13,3 +13,5 @@ follow steps here:
 3. type "npm install --save electron", enter
 
 4. type "npm start", enter
+
+all code is taken from this video: (https://www.youtube.com/watch?v=kN1Czs0m1SU)
